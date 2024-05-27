@@ -21,7 +21,7 @@ const reactElement = {
     children: 'Click me to visit site'
 }
 
-
+//custom code
 const mainContainer = document.querySelector('#root')
 
 customRender(reactElement, mainContainer)
