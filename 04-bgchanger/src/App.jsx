@@ -14,11 +14,11 @@ function colorchange() {
 
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 text-black">
         <div className="flex flex-wrap justify-center gap-3 bg-white px-3 py-3 rounded-xl">
-          <button className="outline-none px-4 shadow-lg">Red</button>
-          <button className="outline-none px-4 shadow-lg">Green</button>
-          <button className="outline-none px-4 shadow-lg">Blue</button>
-          <button className="outline-none px-4 shadow-lg">Brown</button>
-          <button className="outline-none px-4 shadow-lg">Yellow</button>
+          <button onClick={() => setColor("red")} className="outline-none px-4 shadow-lg rounded-full text-white" style={{backgroundColor:"red"}}>Red</button>
+          <button onClick={() => setColor("green")}  className="outline-none px-4 shadow-lg rounded-full text-white" style={{backgroundColor:"green"}}>Green</button>
+          <button onClick={() => setColor("blue")}  className="outline-none px-4 shadow-lg rounded-full text-white" style={{backgroundColor:"blue"}}>Blue</button>
+          <button onClick={() => setColor("brown")} className="outline-none px-4 shadow-lg rounded-full text-white" style={{backgroundColor:"brown"}}>Brown</button>
+          <button onClick={() => setColor("orange")} className="outline-none px-4 shadow-lg rounded-full text-white" style={{backgroundColor:"orange"}}>Orange</button>
         </div>  
       </div>
     </>
