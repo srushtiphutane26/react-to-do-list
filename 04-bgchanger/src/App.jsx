@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 
 
-function App() {
+function colorchange() {
   const [color, setColor] = useState("pink")
 
   return (
@@ -25,4 +25,4 @@ function App() {
   )
 }
 
-export default App
+export default colorchange
